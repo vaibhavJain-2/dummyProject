@@ -31,7 +31,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<configuration>
+					<cloudHubDeployment>
 						<muleVersion>4.3.0</muleVersion>
 					<uri>https://anypoint.mulesoft.com</uri>
 					<username>harshad_dec20</username>
@@ -40,7 +40,7 @@
 					<applicationName>mule-jenkins-cicd-pipeline</applicationName>
 					<workerType>MICRO</workerType>
 					<objectStoreV2>true</objectStoreV2>
-					</configuration>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
