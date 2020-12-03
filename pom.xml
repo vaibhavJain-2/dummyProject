@@ -31,6 +31,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<configuration>         
+					<uri>https://anypoint.mulesoft.com</uri>
+					<username>harshad_dec20</username>
+					<password>Apisero123</password>
+					<environment>Sandbox</environment>
+					<applicationName>mule-jenkins-cicd-pipeline</applicationName>
+					<workerType>MICRO</workerType>
+					<objectStoreV2>true</objectStoreV2>
+					</configuration>
 				</configuration>
 			</plugin>
 		</plugins>
